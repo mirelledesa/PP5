@@ -125,7 +125,7 @@
                                          id="airbag"
                                          name="optional[]"
                                          value="airbag">
-                                         />
+                
                                          <label for="airbag">Airbag</label>
                                       </li>
                                       <li>
@@ -136,7 +136,7 @@
                                         value="alarme"/>
                                         <label for="alarme">Alarme</label>
                                     </li>
-                                    <li>
+                                    <li>   
                                         <input 
                                         type="checkbox"
                                         id="ac"
@@ -154,7 +154,74 @@
                                     </li>
                                      </ul>
                                 </div>
-                  <input type="submit" value="Enviar"/>
+                                <div class="option-box">
+                                     <ul class="optional-list">
+                                      <li>
+                                        <input
+                                         type="checkbox"
+                                         id="lane_assist"
+                                         name="optional[]"
+                                         value="lane_assist">
+                                        
+                                         <label for="lane_assist"> Assistente de pista</label>
+                                      </li>
+                                      <li>
+                                        <input 
+                                        type="checkbox"
+                                        id="keyless"
+                                        name="optional[]"
+                                        value="keyless"/>
+                                        <label for="keyless">Partida Keyless</label>
+                                    </li>
+                                    <li>   
+                                        <input 
+                                        type="checkbox"
+                                        id="smartphone"
+                                        name="optional"
+                                        value="smartphone"/>
+                                        <label for="smartphone">Integração com o Celular</label>
+                                    </li>
+                                    <li>
+                                        <input 
+                                        type="checkbox"
+                                        id="leather_seat"
+                                        name="optional"
+                                        value="leather_seat"/>
+                                        <label for="leather_seat">Banco de couro</label>
+                                    </li>
+                                     </ul>
+                                     <li>
+                                        <input 
+                                        type="checkbox"
+                                        id="estepe"
+                                        name="optional"
+                                        value="estepe"/>
+                                        <label for="estepe">Estepe</label>
+                                    </li>
+                                     </ul>
+                                    </li>
+                                </ul>
+                                <li>
+                                   <input 
+                                   type="checkbox"
+                                   id="porta_bicleta"
+                                   name="optional"
+                                   value="porta_bicleta"/>
+                                   <label for="porta_bicleta">Porta bicicleta</label>
+                               </li>
+                            </ul>
+                            </div>
+                            <div class="box-input">
+                                <p>Fotos do carro:</p>
+                                <input type="file"
+                                multiple
+                                accept="image/png, image/jpg"
+                                id="images"
+                                name="images"
+                                required
+                                />
+                            </div>
+                  <input type="submit" value="Enviar" class="bnt-submit"/>
         </form>
      
        </div>
