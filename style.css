@@ -2,22 +2,28 @@
    margin: 0;
    padding: 0;
    font-family: Arial, Helvetica, sans-serif;
+ 
+ 
 }
 
 body{
- background-color: rgb(224, 147, 5);
+ background-color: rgb(222, 153, 26);
 }
  
 h1,h2,h3,h4,h5{
    color: rgb(41, 40, 40);
 }
 p, label{
-color: #050505;
+color: #313131;
+
 }
+
+
  input{
    border: none;
-   border-bottom: 1px solid #ccc;
+   border: 1px solid #b0b0a3;
    padding: 10px 0;
+  
  }
 
  input[type="text"],
@@ -26,21 +32,27 @@ color: #050505;
  input[type="date"],
  textarea {
    width:400px;
+   margin-bottom: 20px;
  }
 textarea{
    padding: 10px 5px;
+   margin-left: 30px;
 }
-
+input{
+   margin-left: 30px;
+}
 .header{
  height: 100px;
  padding: 20px;
- background-color: rgba(202, 201, 200, 0.9);
+ background-color: rgba(246, 223, 199, 0.9);
 }
 .header h3{
    margin-top: 0;
    font-weight: bold;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-size: 25px;
+  
+   
 }
 .form-container{
    background-color: #fdfdfd;
@@ -48,5 +60,78 @@ textarea{
    margin: 0 auto;
    position: relative;
    top: -62px;
+  
+}
+.form-header{
+   border-bottom: 1px solid #fdfdfd;
+   height: 45px;
+}
+h1{
+   border-top: 1px solid #dfd99b ;
+   
+}   
+p, label{
+   margin-left: 30px;
+   margin-top: 20px;
+   
+}
 
+
+.required-field{
+   color: red;
+}
+.form-header p{ 
+   text-align: center;
+   font-size: 18px;
+   border-bottom:  3px solid #dfd99b;
+   margin: 0 auto;
+   width:200px;
+   text-transform: uppercase;
+   height: 45px;
+   line-height:45px;
+   
+}
+.form-body{
+   padding: 30px;
+}
+.form-title{
+   margin-bottom: 15px;
+   padding-top: 15px;
+
+}
+.form-body p{
+   margin-bottom: 20px;
+}
+.box-input{
+   margin-bottom: 35px;
+   
+}
+.block{
+   display:block;
+}
+.option-box{
+   display: inline-block;
+   margin: 0 30px 30px 0;
+}
+.optional-list li{
+   list-style: none;
+   margin-bottom: 5px;
+}
+.box-input p{
+margin-bottom: 15px;
+}
+.bnt-submit{
+   background-color: #e5bc06;
+   color: #363434;
+   border: 2px solid transparent;
+   width: 150px;
+   height: 50px;
+   cursor: pointer;
+   text-transform: uppercase;
+   transition: 0.5s;
+}
+.bnt-submit:hover{
+   background-color: #f3f5d7;
+   border: 3px solid #e5bc06;
+   color: #e5bc06;
 }
