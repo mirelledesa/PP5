@@ -9,12 +9,12 @@
 body{
  background-color: rgb(254, 247, 231);
 }
- 
+
 h1,h2,h3,h4,h5{
    color: rgb(41, 40, 40);
 }
 p, label{
-color: #313131;
+color: #313131; 
 
 }
 
